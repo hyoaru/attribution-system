@@ -1,6 +1,0 @@
-services:
-  api_nlp_flask:
-    build: ./
-    container_name: attribution_system_api_nlp
-    ports:
-      - "8002:8002"
