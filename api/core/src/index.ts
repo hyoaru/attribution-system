@@ -15,6 +15,7 @@ export const createApp = () => {
       origin: [
         "http://localhost:5173",
         "http://localhost:8003",
+        "http://localhost:8000",
         "https://attribution-system.org",
       ],
       credentials: true,

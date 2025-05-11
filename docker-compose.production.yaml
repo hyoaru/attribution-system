@@ -1,6 +1,7 @@
 services:
   attribution_system_web_server_nginx:
     build: ./infrastructures/nginx
+    platform: linux/amd64
     container_name: attribution_system_web_server_nginx
     restart: unless-stopped
     volumes:
@@ -23,6 +24,7 @@ services:
 
   attribution_system_client_react:
     build: ./client
+    platform: linux/amd64
     container_name: attribution_system_client_react
     restart: on-failure
     working_dir: /app
@@ -30,6 +32,7 @@ services:
       - VITE_CORE_API_BASE_URL=https://core.attribution-system.org
     volumes:
       - ./client:/app
+      - volume_client_react_node_modules:/app/node_modules
     depends_on:
       - attribution_system_api_core_express
     extra_hosts:
@@ -39,6 +42,7 @@ services:
 
   attribution_system_database_pocketbase:
     build: ./infrastructures/pocketbase
+    platform: linux/amd64
     container_name: attribution_system_database_pocketbase
     restart: unless-stopped
     working_dir: /pb
@@ -52,7 +56,9 @@ services:
       - network
 
   attribution_system_api_ml_flask:
-    build: ./api/ml
+    build:
+      context: ./api/ml
+      dockerfile: ./Dockerfile.production
     platform: linux/amd64
     container_name: attribution_system_api_ml_flask
     restart: unless-stopped
@@ -66,12 +72,15 @@ services:
 
   attribution_system_api_core_express:
     build: ./api/core
+    platform: linux/amd64
     container_name: attribution_system_api_core_express
     restart: unless-stopped
     working_dir: /app
     environment:
       - POCKETBASE_URL=https://pocketbase.attribution-system.org
       - API_ML_URL=https://ml.attribution-system.org
+    volumes:
+      - volume_api_core_express_node_modules:/app/node_modules
     expose:
       - 8003
     depends_on:
@@ -85,3 +94,7 @@ services:
 networks:
   network:
     driver: bridge
+
+volumes:
+  volume_api_core_express_node_modules:
+  volume_client_react_node_modules:

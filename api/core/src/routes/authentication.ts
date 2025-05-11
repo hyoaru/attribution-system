@@ -55,6 +55,7 @@ router.post("/sign-in", async (req: Request<SignInRequest>, res) => {
     res.status(200).json(authData);
   } catch (error: unknown) {
     if (error instanceof Error) {
+      console.log(error);
       res
         .status(500)
         .json({ message: "Error signing in", error: error.message });
@@ -72,7 +73,7 @@ router.post("/sign-in", async (req: Request<SignInRequest>, res) => {
  *   post:
  *     summary: Signs out a user
  *     description: Signs out a user.
-*     tags:
+ *     tags:
  *       - Authentication
  *     responses:
  *       200:
@@ -184,7 +185,11 @@ router.post("/register", async (req: Request<RegisterRequest>, res) => {
     );
 
   try {
-    const newUser = await authenticationService.register({ email, password, name });
+    const newUser = await authenticationService.register({
+      email,
+      password,
+      name,
+    });
 
     res.status(201).json(newUser);
   } catch (error: unknown) {
@@ -240,15 +245,19 @@ router.post("/register", async (req: Request<RegisterRequest>, res) => {
  */
 router.post("/users", async (req: Request<SignInRequest>, res) => {
   const { email, password } = req.body;
-  const authenticationService: AuthenticationServiceInterface = container.get<AuthenticationServiceInterface>(
-    DI.AuthenticationServiceInterface
-  );
+  const authenticationService: AuthenticationServiceInterface =
+    container.get<AuthenticationServiceInterface>(
+      DI.AuthenticationServiceInterface,
+    );
 
   try {
     const user = await authenticationService.fetchAllUsers({ email, password });
     res.status(200).json(user);
   } catch (error: unknown) {
-    res.status(500).json({ message: "Error fetching user", error: error instanceof Error ? error.message : "Unknown error" });
+    res.status(500).json({
+      message: "Error fetching user",
+      error: error instanceof Error ? error.message : "Unknown error",
+    });
   }
 });
 
@@ -290,16 +299,21 @@ router.post("/users", async (req: Request<SignInRequest>, res) => {
  */
 router.post("/isAdmin", async (req: Request<{ id: string }>, res) => {
   const { id } = req.body;
-  const authenticationService: AuthenticationServiceInterface = container.get<AuthenticationServiceInterface>(
-    DI.AuthenticationServiceInterface
-  );
+  const authenticationService: AuthenticationServiceInterface =
+    container.get<AuthenticationServiceInterface>(
+      DI.AuthenticationServiceInterface,
+    );
 
   try {
     const isAdmin = await authenticationService.checkAdminStatus(id);
     res.status(200).json({ isAdmin });
   } catch (error: unknown) {
-    res.status(500).json({ message: "Error checking admin status", error: error instanceof Error ? error.message : "Unknown error" });
+    res.status(500).json({
+      message: "Error checking admin status",
+      error: error instanceof Error ? error.message : "Unknown error",
+    });
   }
 });
 
 export default router;
+
