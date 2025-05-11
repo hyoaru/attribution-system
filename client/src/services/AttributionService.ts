@@ -55,7 +55,7 @@ class AttributionService {
             console.log(params.document);
 
             const response = await AxiosInstance.post(
-                `/attributions/new`,
+                `/attributions/`,
                 formData,
                 { timeout: 100000 }
             );
