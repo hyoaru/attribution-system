@@ -1,0 +1,95 @@
+services:
+  attribution_system_web_server_nginx:
+    build: ./infrastructures/nginx
+    container_name: attribution_system_web_server_nginx
+    volumes:
+      - ./infrastructures/nginx/conf/default.development.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "8000:8000"
+      - "8001:8001"
+      - "8002:8002"
+      - "8003:8003"
+    depends_on:
+      - attribution_system_api_ml_flask
+      - attribution_system_database_pocketbase
+      - attribution_system_api_core_express
+      - attribution_system_client_react
+    extra_hosts:
+      - host.docker.internal:172.18.0.1
+    networks:
+      - network
+
+  attribution_system_client_react:
+    build: ./client
+    container_name: attribution_system_client_react
+    working_dir: /app
+    command: ["npm", "run", "dev"]
+    environment:
+      - VITE_CORE_API_BASE_URL=http://attribution_system_web_server_nginx:8003
+    volumes:
+      - ./client:/app
+      - volume_client_react_node_modules:/app/node_modules
+    depends_on:
+      - attribution_system_api_core_express
+    extra_hosts:
+      - host.docker.internal:172.18.0.1
+    networks:
+      - network
+
+  attribution_system_database_pocketbase:
+    build: ./infrastructures/pocketbase
+    container_name: attribution_system_database_pocketbase
+    working_dir: /pb
+    volumes:
+      - ./infrastructures/pocketbase:/pb
+      - volume_database_pocketbase_data:/pb/pb_data
+    expose:
+      - 8001
+    extra_hosts:
+      - host.docker.internal:172.18.0.1
+    networks:
+      - network
+
+  attribution_system_api_ml_flask:
+    build: ./api/ml
+    container_name: attribution_system_api_ml_flask
+    working_dir: /api
+    command: ["python", "main_development.py"]
+    volumes:
+      - ./api/ml:/api
+    expose:
+      - 8002
+    extra_hosts:
+      - host.docker.internal:172.18.0.1
+    networks:
+      - network
+
+  attribution_system_api_core_express:
+    build: ./api/core
+    container_name: attribution_system_api_core_express
+    working_dir: /app
+    command: ["npm", "run", "dev"]
+    environment:
+      - POCKETBASE_URL=http://attribution_system_web_server_nginx:8001
+      - API_ML_URL=http://attribution_system_web_server_nginx:8002
+    volumes:
+      - ./api/core:/app
+      - volume_api_core_express_node_modules:/app/node_modules
+    expose:
+      - 8003
+    depends_on:
+      - attribution_system_api_ml_flask
+      - attribution_system_database_pocketbase
+    extra_hosts:
+      - host.docker.internal:172.18.0.1
+    networks:
+      - network
+
+networks:
+  network:
+    driver: bridge
+
+volumes:
+  volume_database_pocketbase_data:
+  volume_api_core_express_node_modules:
+  volume_client_react_node_modules:

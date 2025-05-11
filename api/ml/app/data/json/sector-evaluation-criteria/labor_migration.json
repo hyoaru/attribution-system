@@ -1,0 +1,248 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of women and men in project identification",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Has the project consulted women and men on the problem or issue that the intervention must solve and on the development of the solution?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.2,
+            "question": "Have women’s inputs been considered in the design of the project?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.3,
+            "question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Has the project tapped sex-disaggregated labor migration data and gender-related information from secondary and primary sources at the project identification stage? Or, does the project document include relevant sex-disaggregated and gender information in the analysis of the development issue or problem?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Has gender analysis been done to identify gender issues related to labor migration prior to project design? Or, does the discussion of development issues in the project document include gender issues that the project must address?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Do project objectives explicitly refer to women and men?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.2,
+            "question": "Does the project have gender equality outputs or outcomes?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Do the strategies match the gender issues and gender equality goals identified? That is, will the activities or interventions reduce gender gaps and inequalities?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the designed project",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Gender division of labor",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.1.1",
+                "question": "Does the project reduce gender role stereotyping and other gender biases? Does the project consider women’Does the project address the differences in the conditions and situations of girls and boys in child labor? Does it address the link between child labor and family survival?s multiple worries (work, family, children) in the design of activities or how the project will affect women’s and men’s other responsibilities?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.1.2",
+                "question": "Does the project support the discussion of gender needs and concerns of woman and man migrant workers in forums and collective bargaining sessions?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.1.3",
+                "question": "Does the project promote safety and security in the workplace?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.1.4",
+                "question": "Does the project encourage full social protection coverage for migrant workers, particularly woman migrant workers?",
+                "possible_scores": [0, 0.08, 0.17]
+              }
+            ]
+          },
+          {
+            "index": 6.2,
+            "question": "Access to and control of resources",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.2.1",
+                "question": "Does the project help migrant woman and man workers find work, establish enterprises or make viable investments that will induce them to stay in the Philippines? Does it offer adequate support to aid in the transition?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.2.2",
+                "question": "Does the project encourage the training of woman migrant workers as well as man migrant workers in participation in social dialogues? Or, will women be involved in decision making on the focus and direction of the project’s technical assistance/ distribution of opportunities among members of the organization?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.2.3",
+                "question": "Will the project create jobs that ensure decent wages and hours? Or, will the project improve workers’ productivity and wages?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.2.4",
+                "question": "Will the project create jobs that ensure decent wages and hours? Or, will the project improve workers’ productivity and wages?",
+                "possible_scores": [0, 0.08, 0.17]
+              }
+            ]
+          },
+          {
+            "index": "6.3",
+            "question": "Constraints",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.3.1",
+                "question": "Is the proposed project design socially or culturally acceptable and accessible to women? Can women effectively participate in or benefit from the project?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.3.2",
+                "question": "Will the project strengthen existing organizations that promote the rights and interests of migrant workers, particularly woman migrant workers?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.3.3",
+                "question": "Has the project devised strategies to overcome the constraints to project participation of woman and of man migrant workers? Specifically, has the project considered that the constraints to the participation of woman migrant workers may require separate programming (by way of separate groups, activities, or components)?",
+                "possible_scores": [0, 0.11, 0.22]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": 7.0,
+        "question": "Monitoring targets and indicators",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 7.1,
+            "question": "Does the project include gender equality targets and indicators for welfare, access, consciousness raising, participation, and control? Examples of gender differences that may be monitored: Number of new hires, by education, Deployment of land-based workers, by occupation and country of destination, Repatriated workers, Conditions of repatriated workers, Problems encountered by migrant workers in the course of migration, Problems encountered by migrant workers in the country of destination, Conditions of work, Access to social protection in the Philippines, Access to social protection in the country of destination, Access to re-integration program or support services for migrant workers, Rate of satisfaction with support services, Membership and leadership in migrant workers’ organizations",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 8.0,
+        "question": "Sex-disaggregated database",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 8.1,
+            "question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data on migrant workers?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Does the project have the expertise to integrate GAD or promote gender equality and women’s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relationship with the agency’s GAD efforts",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Will the project build on or strengthen agency/ PCW/government’s commitment to the advancement of women?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.2,
+            "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.3,
+            "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of women and men in project identification",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Have prior consultations included women and women’s groups to validate the data and determine the gender gaps, and the needs and status of women and men in the community?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Have gender information and sex-disaggregated data on the community, industry, or sector (from official statistics, research survey, business trends, or profiles of current enterprises, microenterprises, or enterprise-related training programs) been considered in crafting the project concept, particularly in the analysis of the development/tourism issue or problem?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Are the needs of both women and men considered in the situation analysis?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 3.2,
+            "question": "Are there gender-based differences in access to and control of resources (skills, capital, information, etc.) between women and men, and is the analysis of these differences reflected in the project document?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 3.3,
+            "question": "Has the analysis of the development problem considered the negative effects of tourism (e.g., sexual harassment, child trafficking, prostitution)?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 3.4,
+            "question": "Is there an analysis of gender-based differences in constraints and opportunities related to women’s and men’s participation in tourism projects?",
+            "possible_scores": [0, 0.25, 0.5]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Do project objectives explicitly refer to women and men? Specifically, does the project aim to improve women’s access and opportunity to benefit from tourism initiatives, as well as men’s?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.2,
+            "question": "Does the project have gender equality outputs or outcomes?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Do the strategies and activities match the gender issues and gender equality goals identified? That is, will the project reduce gender gaps or inequalities, or minimize the negative gender effects of tourism?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the likely impact of the project",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Will the project build on women’s and men’s knowledge and skills?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.2",
+            "question": "Will the project enable women and men to take on non- traditional, non-gender-stereotypical roles and jobs?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.3",
+            "question": "Will women and men have equal access to training, gender- related tourism information (e.g., needs of tourists), and other resources (including additional income-earning opportunities) provided by the project?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.4",
+            "question": "Will the project help women and men become more efficient in their chosen fields in the tourism sector?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.5",
+            "question": "Does the proposed project offer equal opportunities for women and men to participate in project activities, including planning and decision making?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.6",
+            "question": "Has the project designed measures to address constraints to equal participation and benefits of women and men?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.7",
+            "question": "Has the project included strategies for avoiding or minimizing negative impact on the status and welfare of women and girls? Specifically, has the project design provided measures to avoid or reduce the negative effects of the project in terms of sexual harassment, prostitution, child pornography, and the like?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.8",
+            "question": "Will the proposed project’s tourism promotional and IEC materials and advertisements conform to existing gender- sensitive policies and guidelines (e.g., the Media and Gender Equality Committee Guidelines, or MGEC)?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.9",
+            "question": "Will the project, as designed, promote environmental sustainability?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.10",
+            "question": "Does the designed project respect the cultural sensitivities of coWill the proposed project’s tourism promotional and IEC materials and advertisements conform to existing gender- sensitive policies and guidelines (e.g., the Media and Gender Equality Committee Guidelines, or MGEC)?mmunities and their woman and man members? Of woman and man tourists?",
+            "possible_scores": [0, 0.1, 0.2]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": 7.0,
+        "question": "Monitoring targets and indicators",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 7.1,
+            "question": "Does the project have an M&E system that includes gender equality/gender-responsive targets and indicators for welfare, access, conscientization, participation, and control?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 8.0,
+        "question": "Sex-disaggregated database",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 8.1,
+            "question": "Does the M&E system include the collection of sex- disaggregated data and qualitative information that will track the reduction in gender gaps or changes (improvements) in the lives of women and men?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Has the project allocated a budget for gender training programs the will build competencies (within DOT, communities, and other stakeholder groups) in promoting GAD in the project?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Will the project fund activities that will help achieve its GAD objectives and targets?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relations with the agency’s /LGU GAD efforts",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Is the project in line with the existing agency policies and guidelines for gender-responsive tourism?",
+            "possible_scores": [0.1, 0.2, 0.4]
+          },
+          {
+            "index": 10.2,
+            "question": "Will there be collaboration with other agencies/entities in the implementation of a gender-sensitive tourism project?",
+            "possible_scores": [0.1, 0.2, 0.4]
+          },
+          {
+            "index": 10.3,
+            "question": "Will the project support the implementation of relevant local ordinances that reinforce national gender laws in project sites?",
+            "possible_scores": [0.1, 0.2, 0.4]
+          },
+          {
+            "index": 10.4,
+            "question": "Will the project build on or strengthen the agency’s commitment to empower women?",
+            "possible_scores": [0.1, 0.2, 0.4]
+          },
+          {
+            "index": 10.5,
+            "question": "Does the project have an exit plan that will ensure the sustainability of the GAD efforts and benefits?",
+            "possible_scores": [0.1, 0.2, 0.4]
+          }
+        ]
+      }
+    ]
+  }
+]

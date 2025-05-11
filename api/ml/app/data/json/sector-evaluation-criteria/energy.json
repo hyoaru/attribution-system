@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Involvement of women and men",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Has the project consulted female and male stakeholders, including women’s groups, on the particular energy problem or issue (for example, oil industry, renewable energy, energy efficiency and conservation, energy exploration and development)?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 1.2,
+            "question": "Have women’s and men’s suggestions during the consultations been considered in the project design?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Have data been collected or secondary data tapped on women’s and men’s utilization of energy sources (electricity, oil, gas, coal, renewable energy, etc.), access to energy sources, and participation in decision making on matters related to energy, including tariff, conditions of access and use, and management of resources?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Has an analysis been done of needs (including safety risks) and perspectives of women and men about the particular energy source/product and of differences or inequalities related to gender roles or energy utilization?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 3.2,
+            "question": "Has an analysis been done of the gender-based differences in access to and control of energy sources or products (information, training, employment, etc.)?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 3.3,
+            "question": "Has an analysis been done of the differences in, constraints to, and opportunities for participation faced by women and men in energy-sector projects/initiatives and decision-making activities or bodies?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Does the project have clearly stated gender equality or women’s empowerment goals, objectives, outcomes, or outputs?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Do the strategies and activities match the gender issues identified?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the likely impact of the project",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Has the project design included interventions (such as information, education and communication campaigns, stricter regulations, technological improvements) to make energy services or products more accessible or safer or to help reduce the risks to, and the burdens of, women and girls, particularly those living in poverty?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.2",
+            "question": "Will the designed project help households, including women with microenterprises, use energy more efficiently? OR, will the designed project reduce the gap in the productivity of women’s and men’s economic enterprises that are energy-related? OR, will the project help people or groups, particularly poor women, take advantage of improved energy access?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.3",
+            "question": "Has the project design included strategies for reducing gender-based discrimination in training and hiring/employment during project implementation or in the broader energy sector? OR, has the project design included strategies for improving women’s participation as stakeholders, recipients of information, or participants in consultations or training activities?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.4",
+            "question": "Will the decision-making group that will be created by the project have equal numbers of women and men? OR, will women be proportionately represented in the project’s management team?",
+            "possible_scores": [0, 0.1, 0.2]
+          },
+          {
+            "index": "6.5",
+            "question": "Has the project design included strategies that will help create an enabling project environment for promoting gender equality and women’s empowerment? OR, has the project included strategies for avoiding or minimizing negative impact on women’s status and welfare?",
+            "possible_scores": [0, 0.1, 0.2]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": 7.0,
+        "question": "Monitoring targets and indicators",
+        "possible_scores": [0, 0.5, 1.0],
+        "sub_criteria": [
+          {
+            "index": 7.1,
+            "question": "Does the project include gender equality targets and indicators to measure gender equality outputs and outcomes?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 8.0,
+        "question": "Sex-disaggregated database",
+        "possible_scores": [0, 0.5, 1.0],
+        "sub_criteria": [
+          {
+            "index": 8.1,
+            "question": "Does the project M&E system require the collection of sex-disaggregated data for tracking gender results of the project?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration? OR, will the project tap counterpart funds from LGUs/partners for its GAD efforts?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Does the project have the expertise to promote gender equality and women’s empowerment? OR, is the project committing itself to investing project staff time in building capacities within the project to integrate GAD or promote gender equality?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relations with the agency’s /LGU GAD efforts",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Will the project build on or strengthen the agency’s/government’s commitment to equality between women and men and the empowerment of women?",
+            "possible_scores": [0, 0.34, 0.67]
+          },
+          {
+            "index": 10.2,
+            "question": "Will the project build on the initiatives or actions of other organizations in the project areas?",
+            "possible_scores": [0, 0.33, 0.66]
+          },
+          {
+            "index": 10.3,
+            "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  }
+]

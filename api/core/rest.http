@@ -1,0 +1,6 @@
+POST http://localhost:8002/authentication/sign-in
+Content-Type: application/json
+{
+  "email": "admin@email.com",
+  "password": "adminpassword"
+}

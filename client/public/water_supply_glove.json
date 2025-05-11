@@ -1,0 +1,647 @@
+{
+  "evaluation": [
+    {
+      "name": "Project Identification and Planning",
+      "criteria": [
+        {
+          "index": 1.0,
+          "question": "Participation of women and men in project identification",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 1.1,
+              "question": "Has the project consulted women and men on the problem or issue that the intervention must solve and on the development of the solution?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Has the project consulted women and men on the problem or issue that the intervention must solve and on the development of the solution?",
+                "highest_cosine_similarity_score": 0.9838089942932129,
+                "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9807648062705994
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 1.2,
+              "question": "Have women\u2019s inputs been considered in the design of the project?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Have women\u2019s inputs been considered in the design of the project?",
+                "highest_cosine_similarity_score": 0.9795612692832947,
+                "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9584137201309204
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 1.3,
+              "question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+                "highest_cosine_similarity_score": 0.9733153581619263,
+                "highest_cosine_similarity_sentence": "the office of the mpdc and municipal waterworks personnel in coordination with the office of the municipal engineer conducted site survey in the area to be affected by the projects and held coordination meeting with the households to be affected and discuss the importance of the project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9281155467033386
+                }
+              },
+              "evaluation_score": 0.33
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 2.0,
+          "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 2.1,
+              "question": "Has the project tapped sex-disaggregated data and gender- related information from secondary and primary sources at the project identification stage?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Has the project tapped sex-disaggregated data and gender- related information from secondary and primary sources at the project identification stage?",
+                "highest_cosine_similarity_score": 0.9825276732444763,
+                "highest_cosine_similarity_sentence": "the office of the mpdc and municipal waterworks personnel in coordination with the office of the municipal engineer conducted site survey in the area to be affected by the projects and held coordination meeting with the households to be affected and discuss the importance of the project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8442482948303223
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 2.2,
+              "question": "Does the project document include sex-disaggregated and gender information in the analysis of the development issue or problem?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project document include sex-disaggregated and gender information in the analysis of the development issue or problem?",
+                "highest_cosine_similarity_score": 0.9845364093780518,
+                "highest_cosine_similarity_sentence": "the project will be implemented using by phase method based in the availability of budget.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8794047236442566
+                }
+              },
+              "evaluation_score": 0.5
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 3.0,
+          "question": "Conduct of gender analysis and identification of gender issues",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 3.1,
+              "question": "Has a gender analysis been done to identify gender issues prior to project design?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Has a gender analysis been done to identify gender issues prior to project design?",
+                "highest_cosine_similarity_score": 0.96451336145401,
+                "highest_cosine_similarity_sentence": "(source : bmis 2023) v. implementation schedule / work plan strategies and activities performance gender timeline / opr target and issues to be duration indicator addressed 1.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8346297144889832
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 3.2,
+              "question": "Does the discussion of development issues in the project document include gender gaps that the project must address?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the discussion of development issues in the project document include gender gaps that the project must address?",
+                "highest_cosine_similarity_score": 0.9813807606697083,
+                "highest_cosine_similarity_sentence": "the project will be implemented using by phase method based in the availability of budget.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9463323354721069
+                }
+              },
+              "evaluation_score": 0.5
+            }
+          ],
+          "evaluation_score": 1.0
+        }
+      ],
+      "evaluation_score": 3.0
+    },
+    {
+      "name": "Project Design",
+      "criteria": [
+        {
+          "index": 4.0,
+          "question": "Gender equality goals, outcomes, and outputs",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 4.1,
+              "question": "Do project objectives explicitly refer to women and men? Do they target women\u2019s and men\u2019s need for infrastructure?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Do project objectives explicitly refer to women and men? Do they target women\u2019s and men\u2019s need for infrastructure?",
+                "highest_cosine_similarity_score": 0.9496284127235413,
+                "highest_cosine_similarity_sentence": "there is a little risk or possibility that the project will not be implemented.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9211493730545044
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 4.2,
+              "question": "Does the project have gender equality outputs or outcomes?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project have gender equality outputs or outcomes?",
+                "highest_cosine_similarity_score": 0.9577840566635132,
+                "highest_cosine_similarity_sentence": "monitoring and evaluation the office of the mpdc and waterworks in coordination with piu will develop evaluation & monitoring mechanism to assess and evaluate the implementation of the project and will recommend necessary policies to improve the future implementation of the same project.",
+                "nli_evaluation": {
+                  "label": "contradiction",
+                  "score": 0.603460967540741
+                }
+              },
+              "evaluation_score": 0.0
+            }
+          ],
+          "evaluation_score": 0.0
+        },
+        {
+          "index": 5.0,
+          "question": "Matching of strategies with gender issues",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 5.1,
+              "question": "Do the strategies match the gender issues and gender equality goals identified? That is, will the activities or interventions reduce gender gaps and inequalities?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Do the strategies match the gender issues and gender equality goals identified? That is, will the activities or interventions reduce gender gaps and inequalities?",
+                "highest_cosine_similarity_score": 0.9622935056686401,
+                "highest_cosine_similarity_sentence": "monitoring and evaluation the office of the mpdc and waterworks in coordination with piu will develop evaluation & monitoring mechanism to assess and evaluate the implementation of the project and will recommend necessary policies to improve the future implementation of the same project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.7635780572891235
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 5.2,
+              "question": "Does the project build on women\u2019s and men\u2019s knowledge and skills?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project build on women\u2019s and men\u2019s knowledge and skills?",
+                "highest_cosine_similarity_score": 0.9762305021286011,
+                "highest_cosine_similarity_sentence": "monitoring and evaluation the office of the mpdc and waterworks in coordination with piu will develop evaluation & monitoring mechanism to assess and evaluate the implementation of the project and will recommend necessary policies to improve the future implementation of the same project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9511041045188904
+                }
+              },
+              "evaluation_score": 0.5
+            }
+          ],
+          "evaluation_score": 1.0
+        }
+      ],
+      "evaluation_score": 1.0
+    },
+    {
+      "name": "Gender Analysis of the Designed Project",
+      "criteria": [
+        {
+          "index": 6.0,
+          "question": "Gender analysis of the designed project",
+          "possible_scores": [
+            0,
+            1,
+            2
+          ],
+          "sub_criteria": [
+            {
+              "index": "6.1",
+              "question": "Gender division of labor",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "sub_criteria": [
+                {
+                  "index": "6.1.1",
+                  "question": "Has the project considered whether the infrastructure or participation in the project will affect current activities and responsibilities of women and men, girls and boys?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Has the project considered whether the infrastructure or participation in the project will affect current activities and responsibilities of women and men, girls and boys?",
+                    "highest_cosine_similarity_score": 0.9795756936073303,
+                    "highest_cosine_similarity_sentence": "latest water test results from the office of the municipal health officer showed that the quality of water extracted from san vicente spring is negative to solid and fecal coliform contrary to the quality of water extracted from the pipelines in the service areas that are sometimes are positive and sometimes are negative to the mentioned bacteria.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9626317620277405
+                    }
+                  },
+                  "evaluation_score": 0.17
+                },
+                {
+                  "index": "6.1.2",
+                  "question": "Will the needs of women and men, including those affected by involuntary resettlement, be considered in the design of the infrastructure?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Will the needs of women and men, including those affected by involuntary resettlement, be considered in the design of the infrastructure?",
+                    "highest_cosine_similarity_score": 0.9871414303779602,
+                    "highest_cosine_similarity_sentence": "latest water test results from the office of the municipal health officer showed that the quality of water extracted from san vicente spring is negative to solid and fecal coliform contrary to the quality of water extracted from the pipelines in the service areas that are sometimes are positive and sometimes are negative to the mentioned bacteria.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9495935440063477
+                    }
+                  },
+                  "evaluation_score": 0.17
+                }
+              ],
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 6.2,
+              "question": "Access to and control of resources",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "sub_criteria": [
+                {
+                  "index": "6.2.1",
+                  "question": "Will women and men have equal access to the infrastructure and other resources (including employment) distributed by the project?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Will women and men have equal access to the infrastructure and other resources (including employment) distributed by the project?",
+                    "highest_cosine_similarity_score": 0.982938289642334,
+                    "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9351137280464172
+                    }
+                  },
+                  "evaluation_score": 0.17
+                },
+                {
+                  "index": "6.2.2",
+                  "question": "Will women be involved in the decision making over rules for the use and operation and maintenance of the infrastructure or transport- related resources?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Will women be involved in the decision making over rules for the use and operation and maintenance of the infrastructure or transport- related resources?",
+                    "highest_cosine_similarity_score": 0.9885599613189697,
+                    "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.8968083262443542
+                    }
+                  },
+                  "evaluation_score": 0.17
+                }
+              ],
+              "evaluation_score": 0.33
+            },
+            {
+              "index": "6.3",
+              "question": "Constraints",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "sub_criteria": [
+                {
+                  "index": "6.3.1",
+                  "question": "Is the proposed infrastructure socially or culturally acceptable and accessible to women? Or, can they use it?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Is the proposed infrastructure socially or culturally acceptable and accessible to women? Or, can they use it?",
+                    "highest_cosine_similarity_score": 0.9647091627120972,
+                    "highest_cosine_similarity_sentence": "there is a little risk or possibility that the project will not be implemented.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9621363282203674
+                    }
+                  },
+                  "evaluation_score": 0.17
+                },
+                {
+                  "index": "6.3.2",
+                  "question": "Has the project designed measures to address constraints to equal participation and benefits of women and men?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Has the project designed measures to address constraints to equal participation and benefits of women and men?",
+                    "highest_cosine_similarity_score": 0.9784452319145203,
+                    "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9379724264144897
+                    }
+                  },
+                  "evaluation_score": 0.17
+                }
+              ],
+              "evaluation_score": 0.33
+            }
+          ],
+          "evaluation_score": 1
+        }
+      ],
+      "evaluation_score": 1
+    },
+    {
+      "name": "Monitoring and Resources",
+      "criteria": [
+        {
+          "index": 7.0,
+          "question": "Monitoring targets and indicators",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 7.1,
+              "question": "Does the project include gender equality targets and indicators for welfare, access, consciousness raising, participation, and control? For instance, will the following gender differences be monitored: Utilization rate of the infrastructure or facility, Membership and leadership in users\u2019 organizations, Participation in training and similar project activities, by type of training or activity, Employment generated by the project, Loss of livelihood as a result of the project",
+              "possible_scores": [
+                0,
+                1.0,
+                2.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project include gender equality targets and indicators for welfare, access, consciousness raising, participation, and control? For instance, will the following gender differences be monitored: Utilization rate of the infrastructure or facility, Membership and leadership in users\u2019 organizations, Participation in training and similar project activities, by type of training or activity, Employment generated by the project, Loss of livelihood as a result of the project",
+                "highest_cosine_similarity_score": 0.9884772896766663,
+                "highest_cosine_similarity_sentence": "monitoring and evaluation the office of the mpdc and waterworks in coordination with piu will develop evaluation & monitoring mechanism to assess and evaluate the implementation of the project and will recommend necessary policies to improve the future implementation of the same project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.7749819755554199
+                }
+              },
+              "evaluation_score": 1.0
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 8.0,
+          "question": "Sex-disaggregated database",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 8.1,
+              "question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data?",
+              "possible_scores": [
+                0,
+                1.0,
+                2.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data?",
+                "highest_cosine_similarity_score": 0.9845028519630432,
+                "highest_cosine_similarity_sentence": "the project will be implemented using by phase method based in the availability of budget.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.6554282903671265
+                }
+              },
+              "evaluation_score": 1.0
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 9.0,
+          "question": "Resources",
+          "possible_scores": [
+            0,
+            1,
+            2
+          ],
+          "sub_criteria": [
+            {
+              "index": 9.1,
+              "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+                "highest_cosine_similarity_score": 0.9803416132926941,
+                "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.86566561460495
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 9.2,
+              "question": "Does the project have the expertise to integrate GAD or promote gender equality and women\u2019s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project have the expertise to integrate GAD or promote gender equality and women\u2019s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+                "highest_cosine_similarity_score": 0.9819245338439941,
+                "highest_cosine_similarity_sentence": "monitoring and evaluation the office of the mpdc and waterworks in coordination with piu will develop evaluation & monitoring mechanism to assess and evaluate the implementation of the project and will recommend necessary policies to improve the future implementation of the same project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.6316174268722534
+                }
+              },
+              "evaluation_score": 0.5
+            }
+          ],
+          "evaluation_score": 1
+        }
+      ],
+      "evaluation_score": 3.0
+    },
+    {
+      "name": "Relationship with Agency's GAD Efforts",
+      "criteria": [
+        {
+          "index": 10.0,
+          "question": "Relationship with the agency\u2019s GAD efforts",
+          "possible_scores": [
+            0,
+            1,
+            2
+          ],
+          "sub_criteria": [
+            {
+              "index": 10.1,
+              "question": "Will the project build on or strengthen agency/ PCW/government\u2019s commitment to the advancement of women?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Will the project build on or strengthen agency/ PCW/government\u2019s commitment to the advancement of women?",
+                "highest_cosine_similarity_score": 0.985698938369751,
+                "highest_cosine_similarity_sentence": "monitoring and evaluation the office of the mpdc and waterworks in coordination with piu will develop evaluation & monitoring mechanism to assess and evaluate the implementation of the project and will recommend necessary policies to improve the future implementation of the same project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9149977564811707
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 10.2,
+              "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+                "highest_cosine_similarity_score": 0.9835906028747559,
+                "highest_cosine_similarity_sentence": "relative to this and to ensure the proposed project is in the right path, the municipal government of nagcarlan commissioned technical consultant for the preparation of feasibility study (fs) of nagcarlan water supply system which will be used as the blue print of implementation of the projects for future rehabilitation, improvement & expansion of the system.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8503230810165405
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 10.3,
+              "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Will the project build on the initiatives or actions of other organizations in the area?",
+                "highest_cosine_similarity_score": 0.9848634600639343,
+                "highest_cosine_similarity_sentence": "the office of the mpdc and municipal waterworks personnel in coordination with the office of the municipal engineer conducted site survey in the area to be affected by the projects and held coordination meeting with the households to be affected and discuss the importance of the project.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8614328503608704
+                }
+              },
+              "evaluation_score": 0.33
+            }
+          ],
+          "evaluation_score": 1
+        }
+      ],
+      "evaluation_score": 1
+    }
+  ],
+  "evaluation_score": 9.0
+}

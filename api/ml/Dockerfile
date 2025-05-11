@@ -1,0 +1,50 @@
+# Build stage
+FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim AS builder
+
+ENV UV_COMPILE_BYTECODE=1 UV_LINK_MODE=copy UV_PYTHON_DOWNLOADS=0
+WORKDIR /api
+
+RUN \
+  --mount=type=bind,source=.python-version,target=.python-version \
+  --mount=type=bind,source=pyproject.toml,target=pyproject.toml \
+  --mount=type=bind,source=uv.lock,target=uv.lock \
+  --mount=type=cache,target=/root/.cache/uv \
+  --mount=type=cache,target=/root/.cache/huggingface \
+  --mount=type=cache,target=/root/.cache/pip \
+  uv sync --no-install-project --no-dev
+
+COPY \
+  ./initialize.py \
+  ./main_development.py \
+  ./main_production.py \
+  /api/
+
+COPY ./app /api/app
+
+RUN \
+  uv run spacy download en_core_web_sm \
+  && uv run python initialize.py
+
+# Run stage
+FROM python:3.12-slim-bookworm AS runner
+WORKDIR /api
+
+RUN \
+  apt-get update && apt-get install -y curl bash \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/* \
+  && groupadd -g 1000 nonroot \
+  && useradd -u 1000 -g nonroot -m -s /bin/bash nonroot \
+  && touch app.log \
+  && chown 1000:1000 app.log \
+  && mkdir -p uploads \
+  && chown -R 1000:1000 ./uploads
+
+COPY --from=builder --chown=1000:1000 --chmod=755 /root/.cache/huggingface /home/nonroot/.cache/huggingface
+COPY --from=builder --chown=root:root --chmod=755 /api /api
+
+USER nonroot
+
+ENV PATH="/api/.venv/bin:$PATH"
+
+CMD [ "gunicorn", "--bind", "0.0.0.0:8002", "main_production:app", "--threads", "3", "--timeout", "500" ]

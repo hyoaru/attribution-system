@@ -1,0 +1,211 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of women and women's groups in the preparation of the development plan",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Have stakeholders, including women and women's groups, been consulted on the overall direction of the chapter of the plan document, or sector plan?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 1.2,
+            "question": "Have stakeholders, including women and women's groups, been involved in the assessment of challenges and past performance?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 1.3,
+            "question": "Have stakeholders, including women and women's groups, been consulted in the preparation of the sector plans?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 1.4,
+            "question": "Have stakeholders, including women and women's groups, been consulted in the preparation of the sector plans?",
+            "possible_scores": [0, 0.25, 0.5]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Gender analysis of past performance and of challenges and identification of key gender issues",
+        "possible_scores": [0, 2.0, 4.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Does the plan document include key sex-disaggregated and gender information in the analysis of past performance, challenges, current situation, in the particular chapter or sector?",
+            "possible_scores": [0, 1.0, 2.0]
+          },
+          {
+            "index": 2.2,
+            "question": "Analysis of the gender impacts of past policies and programs",
+            "possible_scores": [0, 1.0, 2.0],
+            "sub_criteria": [
+              {
+                "index": "2.2.1",
+                "question": "Has past policies and programs reduced gender gaps in access to resources or development benefits in the sector?",
+                "possible_scores": [0, 0.25, 0.5]
+              },
+              {
+                "index": "2.2.2",
+                "question": "Has past policies and programs raised awareness or sensitivity to the gender-related needs and constraints of women and men, girls and boys?",
+                "possible_scores": [0, 0.25, 0.5]
+              },
+              {
+                "index": "2.2.3",
+                "question": "Has past policies and programs promoted specific human rights of women and girls?",
+                "possible_scores": [0, 0.25, 0.5]
+              },
+              {
+                "index": "2.2.4",
+                "question": "Has past policies and programs increased women’s participation in decision-making in the sector?",
+                "possible_scores": [0, 0.25, 0.5]
+              }
+            ]
+          },
+          {
+            "index": 2.3,
+            "question": "Is achieving gender equality and women’s empowerment considered a challenge in the sector?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 2.4,
+            "question": "Do challenges related to gender equality and women’s empowerment affect other challenges?",
+            "possible_scores": [0, 0.25, 0.5]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.5, 3.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Are gender equality and women’s empowerment explicitly stated goals of the development plan?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 3.2,
+            "question": "Do the development plan objectives explicitly refer to the involvement of and/or benefit to women?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 3.3,
+            "question": "Does the plan have clear gender equality outputs or outcomes?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Matching of strategies with gender equality and women's empowerment issues or goals",
+        "possible_scores": [0, 1.5, 3.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Are there policies and activities (programs/projects) proposed to address specific gender equality and women’s empowerment concerns?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.2,
+            "question": "Has needed legislation to remove sources of gender discrimination been proposed?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.3,
+            "question": "Are there policies and activities (programs/projects) proposed to facilitate the achievement of gender equality and women’s empowerment goals, objectives, or results?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Gender analysis of the policies, strategies or activities in the draft plan document",
+        "possible_scores": [0, 2.0, 4.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Will the proposed macroeconomic policies reduce vulnerabilities of women and men?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.2,
+            "question": "Will the proposed policies, strategies or activities in the plan support women’s unpaid, caring work?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.3,
+            "question": "Does the plan have safeguards for reducing the possible negative social consequences of development policies and strategies?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.4,
+            "question": "Will they provide opportunities for women and men to pursue higher-value or quality jobs?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.5,
+            "question": "Will they improve access of women and men to financial assets/capital, markets, and infrastructure?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.6,
+            "question": "Are there interventions in the plan that will ensure increased access translates to better outcomes?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.7,
+            "question": "Will the governance strategies result in greater participation of women in decision-making?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": 5.8,
+            "question": "Will bureaucratic reorganizations create new career opportunities for women and men?",
+            "possible_scores": [0, 0.25, 0.5]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Results monitoring indicators and targets",
+        "possible_scores": [0, 2.0, 4.0],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Does the results matrix of the development plan include indicators that will measure reduction of gender gaps or improved women‟s empowerment from macroeconomic policy?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 6.2,
+            "question": "Does the results matrix include indicators that will measure  reduction of gender gaps or improved women‟s empowerment from sector strategies or programs?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 6.3,
+            "question": "Does the results matrix include targets for gender gaps reduction or women‟s empowerment results at key points of the plan period?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 6.4,
+            "question": "Does the results matrix require the collection of sex disaggregated data to measure the extent by which under quality and women‟s empowerment results are achieved? ",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  }
+]

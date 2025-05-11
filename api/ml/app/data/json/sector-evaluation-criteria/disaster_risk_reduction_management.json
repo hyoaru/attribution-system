@@ -1,0 +1,260 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of population actually or likely to be affected population in problem identification",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Has the program/project design process included consultation with the communities or groups, including women and women’s organizations, to assess their needs, identify issues affecting them, and discuss solutions? ",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.2,
+            "question": "Have communities or groups, including women and women’s organizations, participated in the identification of what should be included in the program/project design? ",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.3,
+            "question": "Have the preferences of, and constraints faced by women and men, girls and boys based on needs, gender socialization and culture been taken into account to encourage women and men, girls and boys to participate in needs assessments and consultations on the design of DRR projects and activities?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Have information on needs, vulnerabilities, and perceptions of risk been collected separately for/from women and men, girls and boys?",
+            "possible_scores": [0, 0.5, 1]
+          },
+          {
+            "index": 2.2,
+            "question": "Have collected sex- and age-disaggregated data and genderrelated information been used to inform project design?",
+            "possible_scores": [0, 0.5, 1]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Has an analysis of gender-differentiated needs, vulnerabilities, perception of risks, disaster preparedness and the like been done, and key issues identified? Or, has issues been identified from the actual gender-differentiated needs and vulnerabilities of, and risks faced by affected communities or groups that are relevant to disaster response and post-disaster rehabilitation and recovery?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": 3.2,
+            "question": "Has an analysis of the gender division of labor (including economic activities of women and men) raised the different needs and abilities of women and men, girls and boys?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": 3.3,
+            "question": "Has an analysis of access and control of resources (physical capital, financial assets, skills, knowledge) by women and men been made?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": 3.4,
+            "question": "Has an analysis of constraints to the participation of women and men, girls and boys in household, community and project activities been made, and how these constraints could have led to their low visibility in particular activities? ",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": 3.5,
+            "question": "Has an analysis been done of the DRRM awareness, skills and planning tools of LGUs and implementing agencies or organizations to understand and respond to gender issues or the links of gender to disaster risk assessment, disaster prevention, mitigation and/or preparedness; or to identify issues in disaster response, and rehabilitation and recovery? ",
+            "possible_scores": [0, 0.2, 0.4]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Does the project have clearly stated gender equality/equity goals, outcomes and/or outputs related to access to benefits, participation in decision-making processes, or support for gender-related needs and vulnerabilities?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.2,
+            "question": "Do the project goal, outcomes or outputs include building of gender mainstreaming capacities of institutions, including LGUs, dealing with relevant DRRM priority area (that is, disaster risk reduction and mitigation, preparedness, response, and/or rehabilitation and recovery)? OR, do they include integration of DRRM and contingency plans in other plans of the implementing agency or LGU (including GAD plans, and Comprehensive Development Plans [CDP] and Comprehensive Land Use Plans [CLUP]) to ensure that the plans would respond to gender-differentiated vulnerabilities and capacities relative to the DRRM priority area covered by the proposed project?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Do the project strategies consider gender issues and/or gender-differentiated impacts of disasters in disaster risk assessment, prevention and mitigation, or preparedness; or gender-differentiated impacts of humanitarian and other disaster responses, and rehabilitation and recovery?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 5.2,
+            "question": "Do the strategies match the gender equality goals identified? That is, will the DRR-related activities and interventions reduce gender gaps and inequalities related to disaster preparedness, during disasters and post-disasters?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the designed project",
+        "possible_scores": [0, 2.0, 4.0],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Do the designed DRRM-related arrangements (disaster preparedness drills, distribution system of humanitarian aid, evacuation process or facilities, camp coordination and camp management [CCCM], rehabilitation and recovery measures) cater to the special needs of children and youth (such as, education, security, and protection from trafficking and gender-based violence) and women (such as, privacy, reproductive health, security, and protection from trafficking and gender-based violence)?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.2",
+            "question": "Do the designed DRRM-related arrangements (disaster preparedness drills, evacuation process or facilities, CCCM, rehabilitation and recovery measures) cater to the privacy and security needs of LGBT people, and special needs of differently-abled, elderly, sick, or indigenous females and males?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.3",
+            "question": "Does the project, as designed, support productive and reproductive roles of women, men, girls and boys under the existing gender division of labor, as well as, new productive roles for women and care work for men?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.4",
+            "question": "Will the project, as designed, ensure that information on climate, risks and hazards, early warning systems, and other DRR topics is available, accessible, and understandable to women, men and LGBT people, PWDs and indigenous peoples (IPs)/cultural communities in areas likely to be affected or actually affected by disaster to help them in their productive activities and/or to make informed decisions and interventions? OR, are planned critical safety facilities and infrastructures (evacuation centers, shelter and emergency housing, WASH) resilient to hazards, adequate and accessible to all--women, girls, boys, men, and LGBT, and PWD and IPs?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.5",
+            "question": "Are children, both boys and girls, appropriately targeted with knowledge about disaster risk and preparedness through formal and informal channels to reduce their vulnerabilities (trafficking, gender-based violence, survival) pre-, during and post-disasters?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.6",
+            "question": "Has the project design built on the knowledge and skills of women and men? OR, has the project considered existing gender differences in access and use of land, water, and public spaces? ",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.7",
+            "question": "Does the project design include the development of training for women in traditional and non-traditional skills (such as, leadership training, search and rescue, first aid, hazard and vulnerability analysis) to increase their capacities in disaster management at all levels?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.8",
+            "question": "Has the project devised strategies to overcome constraints (such as, time and safety of women and other vulnerable groups) to participation? OR, are there measures designed to accommodate women’s domestic workload and childcare responsibilities to enable their active participation at all phases of the project?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.9",
+            "question": "Will the project, as designed, raise awareness on gender issues in disaster (including sexual exploitation and abuse by humanitarian workers) among vulnerable, affected and/or affected communities or groups? OR, does the project have reporting mechanism for sexual exploitation and abuse committed by humanitarian workers?",
+            "possible_scores": [0, 0.2, 0.4]
+          },
+          {
+            "index": "6.10",
+            "question": "Will the project build capacities of institutions, including LGUs, to address gender issues in climate change/relevant DRRM priority area (that is, disaster risk reduction and mitigation, preparedness, response, and/or rehabilitation and recovery)?",
+            "possible_scores": [0, 0.2, 0.4]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": "7-8.0",
+        "question": "Monitoring targets and indicators and sexdisaggregated database requirement",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": "7-8.1",
+            "question": "Are there gender indicators and sex-disaggregated data to measure gender-related results, such as reduced gender gaps in benefits, access to resources distributed as part of DRR measures, and/or participation in DRR-related decision-making processes?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": "7-8.2",
+            "question": "Are there gender indicators and will data be collected to measure incidence of gender-based violence and/or trafficking of children (boys and girls), women, or men? ",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": "7-8.3",
+            "question": "o the planned research, analysis and/or reporting systems assess emerging issues that might impact the risk, vulnerability, resource access, and participation in DRRrelated activities and decision-making processes of women, men, girls and boys?",
+            "possible_scores": [0, 0.25, 0.5]
+          },
+          {
+            "index": "7-8.4",
+            "question": "Will women be involved in developing monitoring indicators, actual monitoring, and updating baseline information? ",
+            "possible_scores": [0, 0.25, 0.5]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Does the proposed DRRM project budget include provisions to address relevant gender-specific issues (e.g. care work, issues faced by pregnant and/or lactating women, security, disability, etc.) among the likely to be affected or actually affected communities or groups?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Does the proposed DRRM project budget support mechanisms or approaches (such as provision of childminding services or facilities) that would enable women and other vulnerable groups to meaningfully participate in project activities and decision-making processes?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.3,
+            "question": "Does the project/proponent agency/LGU have the expertise to integrate GAD or promote gender equality and women’s empowerment? Or does it commit itself to investing project/agency/LGU staff time to build capacity in  integrating GAD or promoting gender equality in the DRRM project?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relationship with the agency’s GAD efforts",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Will the project build on or strengthen agency/ PCW/government’s commitment to the advancement of women?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.2,
+            "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.3,
+            "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,666 @@
+{
+  "evaluation": [
+    {
+      "name": "Project Identification and Planning",
+      "criteria": [
+        {
+          "index": 1.0,
+          "question": "Participation of women and men in project identification",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 1.1,
+              "question": "Has the project consulted women and men on the problem or issue that the intervention must solve and on the development of the solution?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Has the project consulted women and men on the problem or issue that the intervention must solve and on the development of the solution?",
+                "highest_cosine_similarity_score": 0.9827666878700256,
+                "highest_cosine_similarity_sentence": "monitoring and evalaution the monitoring & evaluation of the program will be handled by the office of the mswdo and office of the mayor through the designated personnel.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9820212125778198
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 1.2,
+              "question": "Have women\u2019s inputs been considered in the design of the project?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Have women\u2019s inputs been considered in the design of the project?",
+                "highest_cosine_similarity_score": 0.9855985641479492,
+                "highest_cosine_similarity_sentence": "based from the record of the office of the sangguniang bayan, presently, there are 239 scholars composed of 87 male and 152 female students.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9784039855003357
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 1.3,
+              "question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+                "highest_cosine_similarity_score": 0.9811075925827026,
+                "highest_cosine_similarity_sentence": "in the event the lgu of nagcarlan cannot allotted a budget, some option will be considered such as partnership wuth the private sectors and the other stakeholders.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.973630428314209
+                }
+              },
+              "evaluation_score": 0.33
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 2.0,
+          "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 2.1,
+              "question": "Has the project tapped sex-disaggregated data and gender- related information from secondary and primary sources at the project identification stage?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Has the project tapped sex-disaggregated data and gender- related information from secondary and primary sources at the project identification stage?",
+                "highest_cosine_similarity_score": 0.9852147102355957,
+                "highest_cosine_similarity_sentence": "monitoring and evalaution the monitoring & evaluation of the program will be handled by the office of the mswdo and office of the mayor through the designated personnel.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9487646818161011
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 2.2,
+              "question": "Does the project document include sex-disaggregated and gender information in the analysis of the development issue or problem?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project document include sex-disaggregated and gender information in the analysis of the development issue or problem?",
+                "highest_cosine_similarity_score": 0.9810736775398254,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.7546679377555847
+                }
+              },
+              "evaluation_score": 1.0
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 3.0,
+          "question": "Conduct of gender analysis and identification of gender issues",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 3.1,
+              "question": "Has a gender analysis been done to identify gender issues prior to project design?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Has a gender analysis been done to identify gender issues prior to project design?",
+                "highest_cosine_similarity_score": 0.9642792344093323,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.4191122055053711
+                }
+              },
+              "evaluation_score": 1.0
+            },
+            {
+              "index": 3.2,
+              "question": "Does the discussion of development issues in the project document include gender gaps that the project must address?",
+              "possible_scores": [
+                0,
+                0.5,
+                1
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the discussion of development issues in the project document include gender gaps that the project must address?",
+                "highest_cosine_similarity_score": 0.976414680480957,
+                "highest_cosine_similarity_sentence": "the progress report will be prepared by the designated personnel stating the list of the qualified scholars (sex disaggregated data), their reported grades/performances in the school and the impact of the program.x.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.7968282699584961
+                }
+              },
+              "evaluation_score": 0.5
+            }
+          ],
+          "evaluation_score": 1.0
+        }
+      ],
+      "evaluation_score": 3.0
+    },
+    {
+      "name": "Project Design",
+      "criteria": [
+        {
+          "index": 4.0,
+          "question": "Gender equality goals, outcomes, and outputs",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 4.1,
+              "question": "Do project objectives explicitly refer to women and men as students, parents, teachers, or administrators?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Do project objectives explicitly refer to women and men as students, parents, teachers, or administrators?",
+                "highest_cosine_similarity_score": 0.9461824297904968,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.536588191986084
+                }
+              },
+              "evaluation_score": 1.0
+            },
+            {
+              "index": 4.2,
+              "question": "Does the project have gender equality outputs or outcomes?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project have gender equality outputs or outcomes?",
+                "highest_cosine_similarity_score": 0.957362174987793,
+                "highest_cosine_similarity_sentence": "the procedures and forms in applying for the scholarship are subject to revision when need arises.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8004783987998962
+                }
+              },
+              "evaluation_score": 0.5
+            }
+          ],
+          "evaluation_score": 1.0
+        },
+        {
+          "index": 5.0,
+          "question": "Matching of strategies with gender issues",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 5.1,
+              "question": "Do the strategies match the gender issues and gender equality goals identified? That is, will the activities or interventions reduce gender gaps and inequalities?",
+              "possible_scores": [
+                0,
+                1.0,
+                2.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Do the strategies match the gender issues and gender equality goals identified? That is, will the activities or interventions reduce gender gaps and inequalities?",
+                "highest_cosine_similarity_score": 0.9627958536148071,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.8279532790184021
+                }
+              },
+              "evaluation_score": 2.0
+            }
+          ],
+          "evaluation_score": 2.0
+        }
+      ],
+      "evaluation_score": 3.0
+    },
+    {
+      "name": "Gender Analysis of the Designed Project",
+      "criteria": [
+        {
+          "index": 6.0,
+          "question": "Gender analysis of the designed project",
+          "possible_scores": [
+            0,
+            1,
+            2
+          ],
+          "sub_criteria": [
+            {
+              "index": "6.1",
+              "question": "Gender division of labor",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "sub_criteria": [
+                {
+                  "index": "6.1.1",
+                  "question": "Are families in the target community reliant on the work of girls or boys for income? IF SO: Will flexible education schedules help females or males fit in their other tasks?",
+                  "possible_scores": [
+                    0,
+                    0.11,
+                    0.22
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Are families in the target community reliant on the work of girls or boys for income? IF SO: Will flexible education schedules help females or males fit in their other tasks?",
+                    "highest_cosine_similarity_score": 0.978657603263855,
+                    "highest_cosine_similarity_sentence": "in the event the lgu of nagcarlan cannot allotted a budget, some option will be considered such as partnership wuth the private sectors and the other stakeholders.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.912224531173706
+                    }
+                  },
+                  "evaluation_score": 0.11
+                },
+                {
+                  "index": "6.1.2",
+                  "question": "Does the project offer opportunities (through curricula, instructional materials, role models) for expanding roles of women and men, girls and boys, at home and in the community, economy, and society?",
+                  "possible_scores": [
+                    0,
+                    0.11,
+                    0.22
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Does the project offer opportunities (through curricula, instructional materials, role models) for expanding roles of women and men, girls and boys, at home and in the community, economy, and society?",
+                    "highest_cosine_similarity_score": 0.9860742092132568,
+                    "highest_cosine_similarity_sentence": "address:.mswdonagcarlan@gmail.com submission of requirements for the application assessment of the municipal social welfare and development office.complete submission of the requirements.no sex/gender discrimination in receiving of application, male and female students are welcome to apply regardless of their gender preference as long as they meet the requirements.january- december 2025.office of the mayor and municipal social welfare and development office.final list of the scholars for senior high school and college students.....payroll of the scholars for senior high school and college students.signed payroll... ..",
+                    "nli_evaluation": {
+                      "label": "entailment",
+                      "score": 0.5839967131614685
+                    }
+                  },
+                  "evaluation_score": 0.22
+                },
+                {
+                  "index": "6.1.3",
+                  "question": "Has an assessment been made of the education and training needs of both females and males?",
+                  "possible_scores": [
+                    0,
+                    0.11,
+                    0.22
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Has an assessment been made of the education and training needs of both females and males?",
+                    "highest_cosine_similarity_score": 0.9763992428779602,
+                    "highest_cosine_similarity_sentence": "the progress report will be prepared by the designated personnel stating the list of the qualified scholars (sex disaggregated data), their reported grades/performances in the school and the impact of the program.x.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9227463006973267
+                    }
+                  },
+                  "evaluation_score": 0.11
+                }
+              ],
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 6.2,
+              "question": "Access to and control of resources",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "sub_criteria": [
+                {
+                  "index": "6.2.1",
+                  "question": "Does the project ensure that opportunities for training and scholarships that may be provided are equally accessible to women and men, girls and boys? To different categories of females and males (rural/urban, ethnic groups)?",
+                  "possible_scores": [
+                    0,
+                    0.11,
+                    0.22
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Does the project ensure that opportunities for training and scholarships that may be provided are equally accessible to women and men, girls and boys? To different categories of females and males (rural/urban, ethnic groups)?",
+                    "highest_cosine_similarity_score": 0.9766907691955566,
+                    "highest_cosine_similarity_sentence": "in the event the lgu of nagcarlan cannot allotted a budget, some option will be considered such as partnership wuth the private sectors and the other stakeholders.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.674655020236969
+                    }
+                  },
+                  "evaluation_score": 0.11
+                },
+                {
+                  "index": "6.2.2",
+                  "question": "Is information about educational opportunities readily available to females and males?",
+                  "possible_scores": [
+                    0,
+                    0.11,
+                    0.22
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Is information about educational opportunities readily available to females and males?",
+                    "highest_cosine_similarity_score": 0.9628306031227112,
+                    "highest_cosine_similarity_sentence": "the procedures and forms in applying for the scholarship are subject to revision when need arises.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9521762728691101
+                    }
+                  },
+                  "evaluation_score": 0.11
+                },
+                {
+                  "index": "6.2.3",
+                  "question": "Have all methods of education delivery been considered?",
+                  "possible_scores": [
+                    0,
+                    0.11,
+                    0.22
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Have all methods of education delivery been considered?",
+                    "highest_cosine_similarity_score": 0.9654492735862732,
+                    "highest_cosine_similarity_sentence": "the procedures and forms in applying for the scholarship are subject to revision when need arises.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.9701799750328064
+                    }
+                  },
+                  "evaluation_score": 0.11
+                }
+              ],
+              "evaluation_score": 0.33
+            },
+            {
+              "index": "6.3",
+              "question": "Constraints",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "sub_criteria": [
+                {
+                  "index": "6.3.1",
+                  "question": "Has the project addressed any time and distance constraint so that girls and boys could attend class?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Has the project addressed any time and distance constraint so that girls and boys could attend class?",
+                    "highest_cosine_similarity_score": 0.9753963947296143,
+                    "highest_cosine_similarity_sentence": "the program will continuous until the students graduated from college but for the scholars of senior high school, new application is needed if they will enter college.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.8510990738868713
+                    }
+                  },
+                  "evaluation_score": 0.17
+                },
+                {
+                  "index": "6.3.2",
+                  "question": "Has the project considered the financial costs of participation that may restrict attendance of females or males?",
+                  "possible_scores": [
+                    0,
+                    0.17,
+                    0.33
+                  ],
+                  "evaluation_result": {
+                    "evaluation_question": "Has the project considered the financial costs of participation that may restrict attendance of females or males?",
+                    "highest_cosine_similarity_score": 0.9843637347221375,
+                    "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                    "nli_evaluation": {
+                      "label": "neutral",
+                      "score": 0.5949841141700745
+                    }
+                  },
+                  "evaluation_score": 0.17
+                }
+              ],
+              "evaluation_score": 0.33
+            }
+          ],
+          "evaluation_score": 1
+        }
+      ],
+      "evaluation_score": 1
+    },
+    {
+      "name": "Monitoring and Resources",
+      "criteria": [
+        {
+          "index": 7.0,
+          "question": "Monitoring targets and indicators",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 7.1,
+              "question": "Does the project include gender equality targets and indicators for welfare, access, consciousness raising, participation, and control? Examples of gender differences that may be monitored: Net enrolment or school participation rate, Passing rate for female and male students (NEAT, NSAT, HSRT), Participation in training and similar project activities, by type of training or activity, Employment generated by the project",
+              "possible_scores": [
+                0,
+                1.0,
+                2.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project include gender equality targets and indicators for welfare, access, consciousness raising, participation, and control? Examples of gender differences that may be monitored: Net enrolment or school participation rate, Passing rate for female and male students (NEAT, NSAT, HSRT), Participation in training and similar project activities, by type of training or activity, Employment generated by the project",
+                "highest_cosine_similarity_score": 0.9866199493408203,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.9158958792686462
+                }
+              },
+              "evaluation_score": 2.0
+            }
+          ],
+          "evaluation_score": 2.0
+        },
+        {
+          "index": 8.0,
+          "question": "Sex-disaggregated database",
+          "possible_scores": [
+            0,
+            1.0,
+            2.0
+          ],
+          "sub_criteria": [
+            {
+              "index": 8.1,
+              "question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data?",
+              "possible_scores": [
+                0,
+                1.0,
+                2.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data?",
+                "highest_cosine_similarity_score": 0.9742351770401001,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.724502444267273
+                }
+              },
+              "evaluation_score": 2.0
+            }
+          ],
+          "evaluation_score": 2.0
+        },
+        {
+          "index": 9.0,
+          "question": "Resources",
+          "possible_scores": [
+            0,
+            1,
+            2
+          ],
+          "sub_criteria": [
+            {
+              "index": 9.1,
+              "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+                "highest_cosine_similarity_score": 0.9742265939712524,
+                "highest_cosine_similarity_sentence": "partnership and sustainability the municipal government of nagcarlan thru the office of the major will regularly allocate fund in the annual budget for the continuous operation of the program.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9171971678733826
+                }
+              },
+              "evaluation_score": 0.5
+            },
+            {
+              "index": 9.2,
+              "question": "Does the project have the expertise to integrate GAD or promote gender equality and women\u2019s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+              "possible_scores": [
+                0,
+                0.5,
+                1.0
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project have the expertise to integrate GAD or promote gender equality and women\u2019s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+                "highest_cosine_similarity_score": 0.9779042601585388,
+                "highest_cosine_similarity_sentence": "iii. objectives: a. 200 senior high school compose of 100 male and 100 female students; b. 400 college students compose of 200 male and 200 female students note: the distribution in number of male and female scholars will depend on the result of the screening and application process.iv. implementation schedule/work plan: strategies performance gender timeline/duration opr and target issues to be activities indicator addressed submission of complete no january- office of the requirements submission of sex/gender december 2025 mayor and for the the discrimination municipal application requirements in receiving of social application, welfare and assessment male and development of the female office municipal students are social welcome to welfare and apply development regardless of office their gender preference as long as they meet the requirements final list of the scholars for senior high school and college students payroll of the signed scholars for payroll senior high school and college studentsv.",
+                "nli_evaluation": {
+                  "label": "entailment",
+                  "score": 0.7388933897018433
+                }
+              },
+              "evaluation_score": 1.0
+            }
+          ],
+          "evaluation_score": 1
+        }
+      ],
+      "evaluation_score": 5.0
+    },
+    {
+      "name": "Relationship with Agency's GAD Efforts",
+      "criteria": [
+        {
+          "index": 10.0,
+          "question": "Relationship with the agency\u2019s GAD efforts",
+          "possible_scores": [
+            0,
+            1,
+            2
+          ],
+          "sub_criteria": [
+            {
+              "index": 10.1,
+              "question": "Will the project build on or strengthen agency/ PCW/government\u2019s commitment to the advancement of women?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Will the project build on or strengthen agency/ PCW/government\u2019s commitment to the advancement of women?",
+                "highest_cosine_similarity_score": 0.9784013628959656,
+                "highest_cosine_similarity_sentence": "partnership and sustainability the municipal government of nagcarlan thru the office of the major will regularly allocate fund in the annual budget for the continuous operation of the program.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9541382789611816
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 10.2,
+              "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+                "highest_cosine_similarity_score": 0.9853724837303162,
+                "highest_cosine_similarity_sentence": "only unforeseen events like axe of god and insufficient of fund may delay the implementation of the program.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.8235172033309937
+                }
+              },
+              "evaluation_score": 0.33
+            },
+            {
+              "index": 10.3,
+              "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+              "possible_scores": [
+                0,
+                0.33,
+                0.67
+              ],
+              "evaluation_result": {
+                "evaluation_question": "Will the project build on the initiatives or actions of other organizations in the area?",
+                "highest_cosine_similarity_score": 0.9841495752334595,
+                "highest_cosine_similarity_sentence": "the progress report will be prepared by the designated personnel stating the list of the qualified scholars (sex disaggregated data), their reported grades/performances in the school and the impact of the program.x.",
+                "nli_evaluation": {
+                  "label": "neutral",
+                  "score": 0.9221547245979309
+                }
+              },
+              "evaluation_score": 0.33
+            }
+          ],
+          "evaluation_score": 1
+        }
+      ],
+      "evaluation_score": 1
+    }
+  ],
+  "evaluation_score": 13.0
+}

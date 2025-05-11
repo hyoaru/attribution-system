@@ -1,0 +1,280 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of women and men in project identification",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Has the program/project design process included consultation with partners, including women and women’s groups, on the problems or issues that the management intervention must address and on the identification of the solutions? ",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.2,
+            "question": "Have women’s inputs been considered in the design of the project?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.3,
+            "question": "Are both women and men seen as equally important stakeholders, partners, or agents of change in the project design?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection/utilization of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Was relevant existing gender-related information utilized in the project identification stage?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 2.2,
+            "question": "Does the project document include sex-disaggregated and gender information in the analysis of the issue or problem?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Has gender analysis been done to identify gender issues prior to the project design?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 3.2,
+            "question": "Have the particular gender issues and needs been consciously identified in the discussion of the development problem(s)? ",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Do the project objectives include objectives that should respond to the needs and problems identified in the gender analysis?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 3.2,
+            "question": "Do the project objectives explicitly refer to or aim to provide equal access to resources by, or participation of, women and men?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 3.3,
+            "question": "Does the project have clear targeted gender equality outputs or outcomes?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues or GAD goals",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Are the strategies identified in the project responsive to the gender issues and gender equality goals established? Do the strategies identified include measures that will accelerate the achievement of women’s equal rights to the utilization, management, and development of fisheries and coastal resources?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the designed program/project",
+        "possible_scores": [0, 2, 4],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Gender division of labor",
+            "possible_scores": [0, 0.5, 1],
+            "sub_criteria": [
+              {
+                "index": "6.1.1",
+                "question": "Has the project considered how women and men fit their resource management activities with their other productive, reproductive, and community tasks in scheduling project activities?",
+                "possible_scores": [0, 0.25, 0.5]
+              },
+              {
+                "index": "6.1.2",
+                "question": "Will the project facilitate the formation of management structure defining women’s roles in the overall management arrangements?",
+                "possible_scores": [0, 0.25, 0.5]
+              }
+            ]
+          },
+          {
+            "index": 6.2,
+            "question": "Access to and control of resources",
+            "possible_scores": [0, 0.5, 1],
+            "sub_criteria": [
+              {
+                "index": "6.2.1",
+                "question": "Will women and men have equal access to the resources to be managed as well as access to technical support and services (e.g., credit, extension services, training, technology, information) that the project will introduce?",
+                "possible_scores": [0, 0.125, 0.25]
+              },
+              {
+                "index": "6.2.2",
+                "question": "Has the project considered specific fisheries and coastal resources that are of primary importance to women? Has it considered the designation of particular areas/resources for priority management rights and control by women (e.g., women-managed areas)?",
+                "possible_scores": [0, 0.125, 0.25]
+              },
+              {
+                "index": "6.2.3",
+                "question": "Will the training of agency/project personnel capacitate them for gender-responsive resource management?",
+                "possible_scores": [0, 0.125, 0.25]
+              },
+              {
+                "index": "6.2.4",
+                "question": "Are the resource management technologies to be introduced by the project women-friendly?",
+                "possible_scores": [0, 0.125, 0.25]
+              }
+            ]
+          },
+          {
+            "index": "6.3",
+            "question": "Commitment to raising awareness of gender issues and concerns",
+            "possible_scores": [0, 0.5, 1],
+            "sub_criteria": [
+              {
+                "index": "6.3.1",
+                "question": "Does the project include gender-awareness-raising activities for the target project partners/beneficiaries?",
+                "possible_scores": [0, 0.16, 0.33]
+              },
+              {
+                "index": "6.3.2",
+                "question": "Will the project involve research and gender analysis of the resources used by women, the issues related to resource use and management, and the community situation?",
+                "possible_scores": [0, 0.16, 0.33]
+              },
+              {
+                "index": "6.3.3",
+                "question": "Has the project considered strategies that will mobilize support for men and the coastal community in the realization of gender-responsive resource management?",
+                "possible_scores": [0, 0.16, 0.33]
+              }
+            ]
+          },
+          {
+            "index": "6.4",
+            "question": "Participation and representation in decision-making",
+            "possible_scores": [0, 0.5, 1],
+            "sub_criteria": [
+              {
+                "index": "6.4.1",
+                "question": "Will the project ensure the active participation of women in all processes involved in the management of resources?",
+                "possible_scores": [0, 0.125, 0.25]
+              },
+              {
+                "index": "6.4.2",
+                "question": "Will the project involve women fisheries extension officers? Women fisher leaders?",
+                "possible_scores": [0, 0.125, 0.25]
+              },
+              {
+                "index": "6.4.3",
+                "question": "Has the project devised strategies to overcome the constraints (including mobility and time constraints for women) to project participation by women and by men?",
+                "possible_scores": [0, 0.125, 0.25]
+              },
+              {
+                "index": "6.4.4",
+                "question": "Has the project considered that the constraints to women’s participation may require separate programming (by way of separate groups, activities, or components)? If separate programming is needed, has the project addressed this?",
+                "possible_scores": [0, 0.125, 0.25]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": 7.0,
+        "question": "Monitoring targets and indicators",
+        "possible_scores": [0, 0.5, 1.0],
+        "sub_criteria": [
+          {
+            "index": 7.1,
+            "question": "Does the project include gender equality targets and indicators of welfare, access, consciousness raising, participation, and control?",
+            "possible_scores": [0, 0.5, 1.0],
+          }
+        ]
+      },
+      {
+        "index": 8.0,
+        "question": "Sex-disaggregated database",
+        "possible_scores": [0, 0.5, 1.0],
+        "sub_criteria": [
+          {
+            "index": 8.1,
+            "question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration? Or, will the project tap counterpart funds from local government units (LGUs) and other partners for its GAD efforts?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Does the project have the expertise to integrate GAD or promote gender equality and women’s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relationship with the agency’s GAD efforts",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Will the project build on or strengthen agency/ PCW/government’s commitment to the advancement of women?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.2,
+            "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.3,
+            "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  }
+]

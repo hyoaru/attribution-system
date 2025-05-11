@@ -1,0 +1,279 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of women and men in project identification",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Has the project consulted women and men, women’s groups, or NGOs on the problem or issue that the intervention must solve and on the development of the solution?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.2,
+            "question": "Have women’s inputs been considered in the design of the project?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.3,
+            "question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Has the project tapped sex-disaggregated data and gender-related information from secondary and primary sources at the project identification stage? OR, does the project document include sex-disaggregated and gender information in the analysis of the development issue or problem?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Gender division of labor and gender needs",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "3.1.1",
+                "question": "Are the needs of both women and men considered in the situation analysis?",
+                "possible_scores": [0, 0.17, 0.33]
+              },
+              {
+                "index": "3.1.2",
+                "question": "Has the situation analysis considered how the productive and reproductive roles of woman and man clients, court personnel, judges or justices, police, and other agents of the country’s pillars of justice affect their access to justice (clients) or their duties in the judiciary or agency?",
+                "possible_scores": [0, 0.17, 0.33]
+              }
+            ]
+          },
+          {
+            "index": 3.2,
+            "question": "Access to and control of resources",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "3.2.1",
+                "question": "Has the situation analysis considered the gender gaps in terms of the resources of women and men and how this is likely to affect their access to justices?",
+                "possible_scores": [0, 0.17, 0.33]
+              },
+              {
+                "index": "3.2.2",
+                "question": "Has the situation analysis covered the causes of gender gaps in resources and access to justice?",
+                "possible_scores": [0, 0.17, 0.33]
+              }
+            ]
+          },
+          {
+            "index": 3.3,
+            "question": "Constraints",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "3.3.1",
+                "question": "Has the situation analysis included a consideration of the possible constraints to women’s and men’s participation in the proposed project?",
+                "possible_scores": [0, 0.33, 0.67]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Do the project objectives explicitly refer to woman and man clients and officials and personnel of the pillars of justice as project partners or beneficiaries?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.2,
+            "question": "Does the project set gender equality outputs and outcomes in terms access, participation, and control?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Do the strategies match the gender issues and gender equality goals? That is, will the project eliminate or at least reduce gender gaps and inequities?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the designed project",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Gender division of labor",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.1.1",
+                "question": "Were the needs of women and men considered in the formulation and design of the project?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.1.2",
+                "question": "Will the project promote and enhance women’s participation?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.1.3",
+                "question": "Will the project avoid negative impact on women’s status and welfare?",
+                "possible_scores": [0, 0.11, 0.22]
+              }
+            ]
+          },
+          {
+            "index": 6.2,
+            "question": "Access to and control of resources",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.2.1",
+                "question": "Will the project address constraints to women’s access to justice and ensure equal access of women and men to justice?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.2.2",
+                "question": "Will there be equal opportunities for woman and man personnel of pillars-of-justice agencies to receive training and other benefits from the project?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.2.3",
+                "question": "Does the project include measures to mitigate the adverse effects on women’s access to and control of resources?",
+                "possible_scores": [0, 0.11, 0.22]
+              }
+            ]
+          },
+          {
+            "index": "6.3",
+            "question": "Constraints",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.3.1",
+                "question": "Is the proposed project socially or culturally acceptable and accessible to women? Can they use it?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.3.2",
+                "question": "Will the project offer facilities and services that will support both women’s and men’s participation in different stages of the project?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.3.3",
+                "question": "Has the project designed measures to address constraints to equal participation and benefits of women and men?",
+                "possible_scores": [0, 0.11, 0.22]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": 7.0,
+        "question": "Monitoring targets and indicators",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 7.1,
+            "question": "Does the project include gender equality targets andindicators for welfare, access, consciousness raising,participation, and control? For instance, will the following gender differences be monitored: Access to the justice delivery system, Participation of justices, judges, court personnel, mediators, and litigantsin gender training, Satisfaction rate with the performance of various pillars of justice(courts, police, etc.), Participation in administrative and decision-making processes, Rate of utilization of project outputs",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 8.0,
+        "question": "Sex-disaggregated database",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 8.1,
+            "question": "Does the proposed project monitoring framework or plan include the collection of sex-disaggregated data?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Does the project have the expertise to integrate GAD or promote gender equality and women’s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relationship with the agency’s GAD efforts",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Will the project build on or strengthen agency/ PCW/government’s commitment to the advancement of women?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.2,
+            "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.3,
+            "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  }
+]

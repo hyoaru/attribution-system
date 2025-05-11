@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Project Identification and Planning",
+    "criteria": [
+      {
+        "index": 1.0,
+        "question": "Participation of women and men in project identification",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 1.1,
+            "question": "Has the project consulted women and men on the problem or issue that the intervention must solve and on the development of the solution?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.2,
+            "question": "Have women’s inputs been considered in the design of the project?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 1.3,
+            "question": "Are both women and men seen as stakeholders, partners, or agents of change in the project design?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      },
+      {
+        "index": 2.0,
+        "question": "Collection of sex-disaggregated data and gender-related information prior to project design",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 2.1,
+            "question": "Has the project tapped sex-disaggregated data and gender-related information from secondary and primary sources at the project identification stage? OR, does the project document include sex- disaggregated and gender information in the analysis of the development issue or problem?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 3.0,
+        "question": "Conduct of gender analysis and identification of gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 3.1,
+            "question": "Has gender analysis been done to identify gender issues prior to project design? OR, does the discussion of development issues in the project document include gender issues that the project must address?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Project Design",
+    "criteria": [
+      {
+        "index": 4.0,
+        "question": "Gender equality goals, outcomes, and outputs",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 4.1,
+            "question": "Do project objectives explicitly refer to girls and boys/women and men?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 4.2,
+            "question": "Does the project have gender equality outputs or outcomes?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      },
+      {
+        "index": 5.0,
+        "question": "Matching of strategies with gender issues",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 5.1,
+            "question": "Do the strategies match the gender issues and gender equality goals that have been identified? That is, will the activities or interventions reduce gender gaps and inequalities?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gender Analysis of the Designed Project",
+    "criteria": [
+      {
+        "index": 6.0,
+        "question": "Gender analysis of the designed project",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": "6.1",
+            "question": "Gender division of labor",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.1.1",
+                "question": "Does the project address the differences in the conditions and situations of girls and boys in child labor? Does it address the link between child labor and family survival?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.1.2",
+                "question": "Does the project support the discussion of gender needs and concerns in forums? IF APPLICABLE: Does it address the issue of girls being socialized to accept a lower or subservient status, making them “ideal” for domestic work?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.1.3",
+                "question": "Does the project promote safety and security in the workplace?",
+                "possible_scores": [0, 0.08, 0.17]
+              },
+              {
+                "index": "6.1.4",
+                "question": "Does the project plan to involve girls and boys in child labor situations in project design and implementation? Has it considered how their participation will affect their other responsibilities?",
+                "possible_scores": [0, 0.08, 0.17]
+              }
+            ]
+          },
+          {
+            "index": 6.2,
+            "question": "Access to and control of resources",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.2.1",
+                "question": "Does the project offer girls and boys in child labor situations educational or training opportunities? Access to health (including reproductive health) information and services?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.2.2",
+                "question": "Does the project provide services and programs (counseling, legal, rescue, training) that respond to the needs of girls and boys in child labor situations?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.2.3",
+                "question": "Does the project offer girls and boys and their families an alternative to child labor? OR, does the project design include measures to prevent child labor?",
+                "possible_scores": [0, 0.11, 0.22]
+              }
+            ]
+          },
+          {
+            "index": "6.3",
+            "question": "Constraints",
+            "possible_scores": [0, 0.33, 0.67],
+            "sub_criteria": [
+              {
+                "index": "6.3.1",
+                "question": "Is the proposed project design socially or culturally acceptable and accessible equally to girls and boys/women and men?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.3.2",
+                "question": "Will girls and boys/women and men have equal access to planning and decision making?",
+                "possible_scores": [0, 0.11, 0.22]
+              },
+              {
+                "index": "6.3.3",
+                "question": "Has the project devised strategies to overcome the constraints to project participation of girls/women and boys/men? Specifically, has the project considered that the constraints to girls’/women’s participation may require separate programming (by way of separate groups, activities, or components)? IF SEPARATE PROGRAMMING IS NEEDED: Has the project addressed this?",
+                "possible_scores": [0, 0.11, 0.22]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Monitoring and Resources",
+    "criteria": [
+      {
+        "index": 7.0,
+        "question": "Monitoring targets and indicators",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 7.1,
+            "question": "Does the project include gender equality targets and indicators for welfare, access, consciousness raising, participation, and control? Examples of gender differences that may be monitored: Number of girls/boys in child labor, Types of work done by girls/boys, Location of work of girls/boys Hours worked by girls/boys, Wages paid girls/boys, Social protection coverage for girls/boys, Work hazards faced by girls/boys, Work-related injuries of girls/boys, Children rescued/rehabilitated/counseled/relocated, Trafficked children returned to their families/communities, Rescued children returning to child labor, Access of girls/boys to basic services (health, education), Number of child-labor prevention programs, Performance of women- and men-owned enterprises in areas of project interventions, Rate of adoption of project interventions, Rate of satisfaction with project interventions, Membership and leadership in organizations, Participation in project activities (forums, training, meetings, marches), Distribution of project inputs other than credit (market linkages, technical information, design)",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 8.0,
+        "question": "Sex-disaggregated database",
+        "possible_scores": [0, 1.0, 2.0],
+        "sub_criteria": [
+          {
+            "index": 8.1,
+            "question": "Does the proposed project monitoring plan or performance measurement framework include the collection of sex-disaggregated data?",
+            "possible_scores": [0, 1.0, 2.0]
+          }
+        ]
+      },
+      {
+        "index": 9.0,
+        "question": "Resources",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 9.1,
+            "question": "Is the budget allotted by the project sufficient for gender equality promotion or integration?",
+            "possible_scores": [0, 0.5, 1.0]
+          },
+          {
+            "index": 9.2,
+            "question": "Does the project have the expertise to integrate GAD or promote gender equality and women’s empowerment? OR, will the project invest in building capacity for integrating GAD or promoting gender equality?",
+            "possible_scores": [0, 0.5, 1.0]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Relationship with Agency's GAD Efforts",
+    "criteria": [
+      {
+        "index": 10.0,
+        "question": "Relationship with the agency’s GAD efforts",
+        "possible_scores": [0, 1, 2],
+        "sub_criteria": [
+          {
+            "index": 10.1,
+            "question": "Will the project build on or strengthen agency/ PCW/government’s commitment to the advancement of women?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.2,
+            "question": "Does the project have an exit plan that will ensure the sustainability of GAD efforts and benefits?",
+            "possible_scores": [0, 0.33, 0.67]
+          },
+          {
+            "index": 10.3,
+            "question": "Will the project build on the initiatives or actions of other organizations in the area?",
+            "possible_scores": [0, 0.33, 0.67]
+          }
+        ]
+      }
+    ]
+  }
+]
