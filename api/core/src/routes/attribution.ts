@@ -20,6 +20,8 @@ type NewAttributionRequest = {
 type GetAllAttributionsRequestQueryParams = {
   sector?: string;
   user_id?: string;
+  start_date?: string;
+  end_date?: string;
 };
 
 type GetAttibutionParams = {
@@ -77,36 +79,6 @@ export type ProjectEvaluationTableProps = {
   sector: string;
   title: string;
 };
-
-
-async function extractTextFromPDF(pdfBuffer: Buffer): Promise<{ text: string, items: any[] }> {
-  const pdfjs = await import("pdfjs-dist/legacy/build/pdf.js");
-  const loadingTask = pdfjs.getDocument({ data: pdfBuffer });
-  const pdfDocument = await loadingTask.promise;
-  let extractedText = "";
-  let textItems: any[] = [];
-
-  for (let i = 1; i <= pdfDocument.numPages; i++) {
-    const page = await pdfDocument.getPage(i);
-    const textContent = await page.getTextContent();
-    textContent.items.forEach((item: any) => {
-      if (item.str) {
-        extractedText += item.str + " ";
-        textItems.push({
-          text: item.str,
-          x: item.transform[4],
-          y: item.transform[5],
-          width: item.width || 50,
-          height: item.height || 10,
-          pageIndex: i - 1
-        });
-      }
-    });
-  }
-  return { text: extractedText.trim(), items: textItems };
-}
-
-
 
 export const router = Router();
 
@@ -259,6 +231,18 @@ router.get(
  *         schema:
  *           type: string
  *         description: Filter attributions by user ID
+ *       - in: query
+ *         name: start_date
+ *         schema:
+ *           type: string
+ *           format: date
+ *         description: Filter attributions created on or after this date (YYYY-MM-DD)
+ *       - in: query
+ *         name: end_date
+ *         schema:
+ *           type: string
+ *           format: date
+ *         description: Filter attributions created on or before this date (YYYY-MM-DD)
  *     responses:
  *       200:
  *         description: Successful attribution listing
@@ -272,7 +256,7 @@ router.get(
  *         description: Internal server error
  */
 router.get("/", authMiddleware, async (req: AuthenticatedRequest, res) => {
-  const { sector, user_id } = req.query as GetAllAttributionsRequestQueryParams;
+  const { sector, user_id, start_date, end_date } = req.query as GetAllAttributionsRequestQueryParams;
 
   const attributionService: AttributionServiceInterface =
     container.get<AttributionServiceInterface>(DI.AttributionServiceInterface);
@@ -281,6 +265,8 @@ router.get("/", authMiddleware, async (req: AuthenticatedRequest, res) => {
     const attributions = await attributionService.getAll({
       sector: sector,
       userId: user_id,
+      startDate: start_date,
+      endDate: end_date,
     });
 
     res.status(200).json(attributions);

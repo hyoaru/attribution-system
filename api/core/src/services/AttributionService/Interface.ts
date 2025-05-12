@@ -12,6 +12,8 @@ type AttributeParams = {
 type GetAllParams = {
   sector?: string;
   userId?: string;
+  startDate?: string;
+  endDate?: string;
 };
 
 type GetParams = {

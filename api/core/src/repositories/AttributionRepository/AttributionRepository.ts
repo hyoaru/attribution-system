@@ -28,17 +28,32 @@ export class AttributionRepository implements AttributionRepositoryInterface {
     params: Parameters<AttributionRepositoryInterface["getAll"]>[0],
   ): ReturnType<AttributionRepositoryInterface["getAll"]> {
     const pb = PocketbaseService.getClient();
-
-    const filters = {
-      sector: params.sector,
-      user_id: params.userId,
-    };
-
-    const stringFilter = Object.entries(filters)
-      .filter((entry) => entry[1])
-      .map((entry) => `${entry[0]}='${entry[1]}'`)
-      .join("&&");
-
+  
+    const filters: string[] = [];
+  
+    if (params.sector) {
+      filters.push(`sector='${params.sector}'`);
+    }
+    if (params.userId) {
+      filters.push(`user_id='${params.userId}'`);
+    }
+    if (params.startDate) {
+      const [year, month, day] = params.startDate.split("-").map(Number);
+      const isoStart = new Date(Date.UTC(year, month - 1, day, 0, 0, 0, 0)).toISOString();
+      filters.push(`created >= "${isoStart}"`);
+    }
+  
+    if (params.endDate) {
+      const [year, month, day] = params.endDate.split("-").map(Number);
+      const isoEnd = new Date(Date.UTC(year, month - 1, day, 23, 59, 59, 999)).toISOString();
+      filters.push(`created <= "${isoEnd}"`);
+    }
+  
+    const stringFilter = filters.join(" && ");
+  
+    // Debugging: Print the final filter string
+    console.log("Generated Filter:", stringFilter);
+  
     return await pb.collection("attributions").getFullList({
       sort: "-created",
       filter: stringFilter,
