@@ -12,6 +12,7 @@ import AuthenticationService from "@/services/AuthenticationService";
 import { User } from "@/types/Attribution";
 import AttributionService from "@/services/AttributionService";
 import { calculateBudgetAlignment, calculateTotalScore } from "@/helpers/UtilHelpers";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 
 export default function Dashboard() {
     const navigate = useNavigate();
@@ -25,6 +26,11 @@ export default function Dashboard() {
     const [errorMessage, setErrorMessage] = useState("");
     const [isAdmin, setIsAdmin] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
+    const [downloadDialogOpen, setDownloadDialogOpen] = useState(false);
+    const [selectedSector, setSelectedSector] = useState("");
+    const [startDate, setStartDate] = useState("");
+    const [endDate, setEndDate] = useState("");
+    const [filterError, setFilterError] = useState("");
 
     const handleLogout = () => {
         localStorage.removeItem("token");
@@ -118,11 +124,29 @@ export default function Dashboard() {
     };
 
     const handleDownloadSummary = () => {
+        if (startDate && endDate && new Date(startDate) > new Date(endDate)) {
+            setFilterError("End date must be after start date.");
+            return;
+        }
+
+        setFilterError("");
+        setDownloadDialogOpen(false);
+
         const fetchAttributions = async () => {
             try {
+                const userId = localStorage.getItem("userId") || undefined;
+                if (startDate && endDate && new Date(startDate) > new Date(endDate)) {
+                    setFilterError("End date must be after start date.");
+                    return;
+                }
+
+                setFilterError("");
+                setDownloadDialogOpen(false);
                 const data = await AttributionService.getAllAttributions(
-                    undefined,
-                    localStorage.getItem("userId") || undefined
+                    selectedSector,
+                    userId,
+                    startDate,
+                    endDate
                 );
 
                 const updates: { cell: string; value: string }[] = [];
@@ -166,10 +190,15 @@ export default function Dashboard() {
 
                 updates.push({ cell: 'D14', value: totalBudgetAlignment.toString() });
 
-                // Generate filename from first entry's title
-                const fileName = filteredData[0]?.expand?.document_id?.title
-                    ? `${filteredData[0].expand.document_id.title.replace(/[^\w]/g, '_')}_summary.xlsx`
-                    : 'attribution_summary.xlsx';
+                const sectorPart = selectedSector || "AllSectors";
+                const startPart = startDate ? new Date(startDate).toISOString().split('T')[0] : "";
+                const endPart = endDate ? new Date(endDate).toISOString().split('T')[0] : "";
+                const datePart = startPart && endPart ? `${startPart}_to_${endPart}` : "";
+
+                const fileName = `${sectorPart}_${datePart}_summary.xlsx`
+                    .replace(/_{2,}/g, '_')
+                    .replace(/_$/, '');
+
 
                 // Generate and download Excel
                 const blob = await AttributionService.fillExcelFileSummary('Summary', updates);
@@ -211,7 +240,7 @@ export default function Dashboard() {
                         )}
                         <DropdownMenuItem onClick={() => {
                             setDropdownOpen(false);
-                            handleDownloadSummary();
+                            setDownloadDialogOpen(true);
                         }}>
                             Download Summary
                         </DropdownMenuItem>
@@ -224,6 +253,71 @@ export default function Dashboard() {
                     </DropdownMenuContent>
                 </DropdownMenu>
             </div>
+
+            <Dialog open={downloadDialogOpen} onOpenChange={setDownloadDialogOpen}>
+                <DialogContent className="sm:max-w-[425px]">
+                    <DialogHeader>
+                        <DialogTitle>Filter Summary</DialogTitle>
+                    </DialogHeader>
+                    <div className="grid gap-4 py-4">
+                        <div className="grid grid-cols-4 items-center gap-4">
+                            <Label htmlFor="sector" className="text-right">
+                                Sector
+                            </Label>
+                            <Select value={selectedSector} onValueChange={setSelectedSector}>
+                                <SelectTrigger id="sector" className="col-span-3">
+                                    <SelectValue placeholder="Select sector" />
+                                </SelectTrigger>
+                                <SelectContent>
+                                    <SelectItem value="all">All Sectors</SelectItem>
+                                    <SelectItem value="Health">Health</SelectItem>
+                                    <SelectItem value="Education">Education</SelectItem>
+                                    <SelectItem value="Agriculture">Agriculture</SelectItem>
+                                </SelectContent>
+                            </Select>
+                        </div>
+
+                        <div className="grid grid-cols-4 items-center gap-4">
+                            <Label htmlFor="startDate" className="text-right">
+                                Start Date
+                            </Label>
+                            <Input
+                                id="startDate"
+                                type="date"
+                                value={startDate}
+                                onChange={(e) => setStartDate(e.target.value)}
+                                className="col-span-3"
+                            />
+                        </div>
+
+                        <div className="grid grid-cols-4 items-center gap-4">
+                            <Label htmlFor="endDate" className="text-right">
+                                End Date
+                            </Label>
+                            <Input
+                                id="endDate"
+                                type="date"
+                                value={endDate}
+                                onChange={(e) => setEndDate(e.target.value)}
+                                className="col-span-3"
+                            />
+                        </div>
+
+                        {filterError && (
+                            <div className="col-span-4 text-center text-sm text-destructive">
+                                {filterError}
+                            </div>
+                        )}
+                    </div>
+
+                    <div className="flex justify-end gap-2 mt-4">
+                        <Button variant="outline" onClick={() => setDownloadDialogOpen(false)}>
+                            Cancel
+                        </Button>
+                        <Button onClick={handleDownloadSummary}>Generate</Button>
+                    </div>
+                </DialogContent>
+            </Dialog>
 
             {/* Manage Users Dialog */}
             <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>

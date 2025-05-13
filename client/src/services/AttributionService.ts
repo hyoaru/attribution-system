@@ -85,16 +85,19 @@ class AttributionService {
 
     static getAllAttributions = async (
         sector?: string,
-        userId?: string
+        userId?: string,
+        startDate?: string,
+        endDate?: string
     ): Promise<AttributionResponse[]> => {
-
         try {
             const params = new URLSearchParams();
             if (sector) params.append("sector", sector);
             if (userId) params.append("user_id", userId);
-    
+            if (startDate) params.append("start_date", startDate);
+            if (endDate) params.append("end_date", endDate);
+
             const url = `/attributions${params.toString() ? `?${params.toString()}` : ""}`;
-    
+
             const response = await AxiosInstance.get(url);
             return response.data;
         } catch (error) {
