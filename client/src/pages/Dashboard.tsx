@@ -12,7 +12,7 @@ import AuthenticationService from "@/services/AuthenticationService";
 import { User } from "@/types/Attribution";
 import AttributionService from "@/services/AttributionService";
 import { calculateBudgetAlignment, calculateTotalScore } from "@/helpers/UtilHelpers";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import CustomSelect from "@/components/custom-select";
 
 export default function Dashboard() {
     const navigate = useNavigate();
@@ -27,10 +27,34 @@ export default function Dashboard() {
     const [isAdmin, setIsAdmin] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
     const [downloadDialogOpen, setDownloadDialogOpen] = useState(false);
-    const [selectedSector, setSelectedSector] = useState("");
+    const [selectedSector, setSelectedSector] = useState<string | null>(null);
     const [startDate, setStartDate] = useState("");
     const [endDate, setEndDate] = useState("");
     const [filterError, setFilterError] = useState("");
+
+    const selectOptionsSector = [
+        { value: "general", label: "General" },
+        { value: "agriculture_and_agrarian_reform", label: "Agriculture And Agrarian Reform" },
+        { value: "child_labor", label: "Child Labor" },
+        { value: "development_planning", label: "Development Planning" },
+        { value: "disaster_risk_reduction_management", label: "Disaster Risk Reduction Management" },
+        { value: "employment_and_work_related", label: "Employment And Work Related" },
+        { value: "energy", label: "Energy" },
+        { value: "fisheries", label: "Fisheries" },
+        { value: "generic", label: "Generic" },
+        { value: "ict", label: "ICT" },
+        { value: "infrastructure", label: "Infrastructure" },
+        { value: "justice", label: "Justice" },
+        { value: "labor_migration", label: "Labor Migration" },
+        { value: "microfinance", label: "Microfinance" },
+        { value: "natural_resource_management", label: "Natural Resource Management" },
+        { value: "private_sector_development", label: "Private Sector Development" },
+        { value: "social_sector_education", label: "Social Sector Education" },
+        { value: "social_sector_health", label: "Social Sector Health" },
+        { value: "social_sector_housing_and_settlement", label: "Social Sector Housing And Settlement" },
+        { value: "social_sector_women_in_areas_under_armed_conflict", label: "Social Sector Women In Areas Under Armed Conflict" },
+        { value: "tourism", label: "Tourism" }
+    ];
 
     const handleLogout = () => {
         localStorage.removeItem("token");
@@ -78,6 +102,11 @@ export default function Dashboard() {
                 });
         }
     }, []);
+
+    const handleSelectSector = (value: string) => {
+        setSelectedSector(value === "clear" ? null : value);
+        console.log(value);
+    };
 
     const handleAddUser = async () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -143,7 +172,7 @@ export default function Dashboard() {
                 setFilterError("");
                 setDownloadDialogOpen(false);
                 const data = await AttributionService.getAllAttributions(
-                    selectedSector,
+                    selectedSector || undefined,
                     userId,
                     startDate,
                     endDate
@@ -264,17 +293,11 @@ export default function Dashboard() {
                             <Label htmlFor="sector" className="text-right">
                                 Sector
                             </Label>
-                            <Select value={selectedSector} onValueChange={setSelectedSector}>
-                                <SelectTrigger id="sector" className="col-span-3">
-                                    <SelectValue placeholder="Select sector" />
-                                </SelectTrigger>
-                                <SelectContent>
-                                    <SelectItem value="all">All Sectors</SelectItem>
-                                    <SelectItem value="Health">Health</SelectItem>
-                                    <SelectItem value="Education">Education</SelectItem>
-                                    <SelectItem value="Agriculture">Agriculture</SelectItem>
-                                </SelectContent>
-                            </Select>
+                            <CustomSelect
+                        options={selectOptionsSector}
+                        placeholder="Sector"
+                        onChange={handleSelectSector}
+                    />
                         </div>
 
                         <div className="grid grid-cols-4 items-center gap-4">
