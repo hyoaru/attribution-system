@@ -390,19 +390,19 @@ const ProjectEvaluationTable: React.FC<ProjectEvaluationTableProps> = ({
                 <Table className="w-full">
                     <TableHeader>
                         <TableRow className="bg-gray-50">
-                            <TableCell className="font-semibold p-2 w-[20%] text-center">
+                            <TableCell className="font-semibold p-2 w-[10%] text-center">
                                 Question/Element
                             </TableCell>
-                            <TableCell className="font-semibold p-2 w-[20%] text-center">
+                            <TableCell className="font-semibold p-2 w-[10%] text-center">
                                 Possible Scores
                             </TableCell>
-                            <TableCell className="font-semibold p-2 w-[20%] text-center">
+                            <TableCell className="font-semibold p-2 w-[10%] text-center">
                                 Actual Score
                             </TableCell>
-                            <TableCell className="font-semibold p-2 w-[20%] text-center">
+                            <TableCell className="font-semibold p-2 w-[10%] text-center">
                                 Remarks
                             </TableCell>
-                            <TableCell className="font-semibold p-2 w-[20%] text-center">
+                            <TableCell className="font-semibold p-2 w-[60%] text-center">
                                 Evaluation Details
                             </TableCell>
                         </TableRow>
