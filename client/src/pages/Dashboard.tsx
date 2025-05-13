@@ -294,10 +294,10 @@ export default function Dashboard() {
                                 Sector
                             </Label>
                             <CustomSelect
-                        options={selectOptionsSector}
-                        placeholder="Sector"
-                        onChange={handleSelectSector}
-                    />
+                                options={selectOptionsSector}
+                                placeholder="Sector"
+                                onChange={handleSelectSector}
+                            />
                         </div>
 
                         <div className="grid grid-cols-4 items-center gap-4">
@@ -327,7 +327,7 @@ export default function Dashboard() {
                         </div>
 
                         {filterError && (
-                            <div className="col-span-4 text-center text-sm text-destructive">
+                            <div className="text-red-500 text-sm mt-2 text-center">
                                 {filterError}
                             </div>
                         )}
