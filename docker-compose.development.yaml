@@ -82,6 +82,8 @@ services:
     environment:
       - POCKETBASE_URL=http://attribution_system_database_pocketbase:8001
       - API_ML_URL=http://attribution_system_api_ml_flask:8002
+      - POCKETBASE_ADMIN_EMAIL=admin@email.com
+      - POCKETBASE_ADMIN_PASSWORD=adminpassword
     volumes:
       - ./api/core:/app
       - volume_api_core_express_node_modules:/app/node_modules
